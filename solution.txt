@@ -1,0 +1,13 @@
+1) git clone https://github.com/s19208/epg1_git.git
+2) git branch hw-s19208
+3) git checkout rebase-me
+4) git rebase hw-s19208
+5) git checkout hw-s19208
+6) git merge rebase-me
+7) git merge merge-me
+8) --- conflic occuers, after resolving conflict ->
+9) git add README.md
+10)git commit -m "merge..."
+11)notepad solution.txt
+12)git commit
+13)git push https://github.com/s19208/epg1_git.git
